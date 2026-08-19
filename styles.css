@@ -1,1 +1,46 @@
+body{
+    margin: 0px;
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+#bigfella{
+    margin: 20px;
+    box-shadow: 0px 0px 300px white;
 
+    border-radius: 50px;
+    background: linear-gradient(#2856fc,#87a1ff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#smallfella{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+img{
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    border-style: solid;
+}
+h1{
+    font-family: "consolas", "Helvetica", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+#yaptext{
+    background: linear-gradient(#d4ddff,#b1c1fc);
+    
+    font-family: "consolas", "Helvetica", sans-serif;
+    font-size: 18px;
+
+    border-style: solid;
+    border-radius: 10px;
+    padding: 15px;
+}
+.filler{
+    padding: 10px;
+}
